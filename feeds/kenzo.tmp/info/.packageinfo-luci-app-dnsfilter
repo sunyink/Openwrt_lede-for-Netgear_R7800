@@ -1,0 +1,63 @@
+Source-Makefile: feeds/kenzo/luci-app-dnsfilter/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-dnsfilter
+Submenu: 3. Applications
+Version: 1.0-14
+Depends: +libc +curl +dnsmasq-full +ipset
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for DNSFilter
+Maintainer: small_5 kiddin9
+Source: 
+License: GPLv2
+Type: ipkg
+Description: LuCI support for DNSFilter
+small_5 kiddin9
+@@
+
+Package: luci-i18n-dnsfilter-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 1.0-14
+Depends: +libc luci-app-dnsfilter
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-dnsfilter - zh_Hans translation
+Maintainer: small_5 kiddin9
+Source: 
+License: GPLv2
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-dnsfilter - 
+small_5 kiddin9
+@@
+
+Package: luci-i18n-dnsfilter-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 1.0-14
+Depends: +libc luci-app-dnsfilter
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-dnsfilter - zh-cn translation
+Maintainer: small_5 kiddin9
+Source: 
+License: GPLv2
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-dnsfilter - 简体中文 (Simplified Chinese)
+small_5 kiddin9
+@@
+
+

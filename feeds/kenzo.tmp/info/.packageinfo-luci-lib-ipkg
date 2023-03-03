@@ -1,0 +1,22 @@
+Source-Makefile: feeds/kenzo/luci-lib-ipkg/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-lib-ipkg
+Submenu: 6. Libraries
+Version: x-1
+Depends: +libc +luci-base
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Legacy opkg interface class
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Legacy opkg interface class
+
+@@
+
+

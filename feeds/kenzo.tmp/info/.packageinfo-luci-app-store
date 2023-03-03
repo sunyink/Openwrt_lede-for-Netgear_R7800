@@ -1,0 +1,22 @@
+Source-Makefile: feeds/kenzo/luci-app-store/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-store
+Submenu: 3. Applications
+Version: 0.1.12-10
+Depends: +libc +curl +opkg +luci-base +tar +coreutils +coreutils-stat +libuci-lua +mount-utils +luci-lib-taskd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI based ipk store
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Source: istore-ui-v0.1.12-5.tar.gz
+Type: ipkg
+Description:    luci-app-store is a ipk store developed by LinkEase team
+jjm2473 <jjm2473@gmail.com>
+@@
+
+

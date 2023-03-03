@@ -1,0 +1,22 @@
+Source-Makefile: feeds/kenzo/luci-lib-taskd/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-lib-taskd
+Submenu: 6. Libraries
+Version: 1.0.17
+Depends: +libc +luci-lib-xterm +taskd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Task library
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Source: 
+Type: ipkg
+Description: Task library
+jjm2473 <jjm2473@gmail.com>
+@@
+
+

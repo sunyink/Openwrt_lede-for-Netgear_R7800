@@ -1,0 +1,22 @@
+Source-Makefile: feeds/luci/applications/luci-app-webdav/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-webdav
+Submenu: 3. Applications
+Version: 1.0-1
+Depends: +libc +gowebdav
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for Webdav
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI support for Webdav
+
+@@
+
+

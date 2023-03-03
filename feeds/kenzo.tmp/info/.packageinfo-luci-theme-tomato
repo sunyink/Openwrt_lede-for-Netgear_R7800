@@ -1,0 +1,22 @@
+Source-Makefile: feeds/kenzo/luci-theme-tomato/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-theme-tomato
+Submenu: 4. Themes
+Version: x-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Tomato new kenzo
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Tomato new kenzo
+
+@@
+
+

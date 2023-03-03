@@ -1,0 +1,41 @@
+Source-Makefile: feeds/luci/applications/luci-app-mosdns/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-mosdns
+Submenu: 3. Applications
+Version: 1.4.4-2
+Depends: +libc +mosdns +jsonfilter +luci-compat +curl +v2ray-geoip +v2ray-geosite
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI Support for mosdns
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI Support for mosdns
+
+@@
+
+Package: luci-i18n-mosdns-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 1.4.4-2
+Depends: +libc luci-app-mosdns
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-mosdns - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-mosdns - 简体中文 (Simplified Chinese)
+
+@@
+
+

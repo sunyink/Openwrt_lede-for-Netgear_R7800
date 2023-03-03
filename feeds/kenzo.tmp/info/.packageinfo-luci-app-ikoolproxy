@@ -1,0 +1,22 @@
+Source-Makefile: feeds/kenzo/luci-app-ikoolproxy/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-ikoolproxy
+Submenu: 3. Applications
+Version: 3.8.5-20221011
+Depends: +libc +koolproxy +openssl-util +ipset +dnsmasq-full +@BUSYBOX_CONFIG_DIFF +iptables-mod-nat-extra +wget
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for koolproxy
+Maintainer: panda-mute <wxuzju@gmail.com>
+Source: 
+Type: ipkg
+Description: LuCI support for koolproxy
+panda-mute <wxuzju@gmail.com>
+@@
+
+

@@ -1,0 +1,21 @@
+Source-Makefile: feeds/kenzo/luci-app-adguardhome/Makefile
+
+Package: luci-app-adguardhome
+Submenu: 3. Applications
+Version: 1.0-20230123
+Depends: +libc +!wget-ssl&&!curl:wget-ssl +xz-utils +xz
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for AdGuard Home [Modified by Hyy2001]
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	LuCI support for AdGuard Home
+
+@@
+
+

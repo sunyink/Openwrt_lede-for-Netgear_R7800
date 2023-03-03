@@ -1,0 +1,287 @@
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+License: MIT
+Section: lang
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2285
+Filename: lua-maxminddb_0.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2986
+SHA256sum: 493732772e6c7ebbf3f082b93a1dcf52cf704da5038ed0b14c6befabc42d5916
+Description:  libmaxminddb bindings for lua
+
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: all
+Installed-Size: 4530
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5318
+SHA256sum: 83092283cb5cc1866189833e4937f706915929abdb1159f260f4b90dbc8f4660
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-adguardhome
+Version: 1.0-20230123
+Depends: libc, wget-ssl, xz-utils, xz
+Section: luci
+Architecture: all
+Installed-Size: 91828
+Filename: luci-app-adguardhome_1.0-20230123_all.ipk
+Size: 92968
+SHA256sum: 49dec371c57e3c78eb8aa716adffc106f145df489bd0830a5393eae8f239c7ca
+Description:  LuCI support for AdGuard Home
+
+Package: luci-app-argonne-config
+Version: 1.2-2
+Depends: libc, luci-compat, luci-theme-argonne
+Section: luci
+Architecture: all
+Installed-Size: 3607
+Filename: luci-app-argonne-config_1.2-2_all.ipk
+Size: 4434
+SHA256sum: 64f70a20269e7444cfbb2aefea693ef0bd7f54fbcc4b8bf673efdc46d98e1906
+Description:  LuCI page for Argonne Config
+
+Package: luci-app-bypass
+Version: git-23.062.11911-993b2d5-1
+Depends: libc, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua-neturl, dnsmasq-full, smartdns, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, luci-lib-ipkg, unzip, lua-maxminddb, shadowsocks-libev-ss-server, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, v2ray-plugin, xray-core, trojan-plus, naiveproxy, kcptun-client, hysteria, redsocks2, microsocks
+Section: luci
+Architecture: all
+Installed-Size: 2647029
+Filename: luci-app-bypass_git-23.062.11911-993b2d5-1_all.ipk
+Size: 2465355
+SHA256sum: 33e7017c652b0e56a6086ff8da5e080efcc9063a64c31ab85050dfde75dd3397
+Description:  SS/SSR/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-eqos
+Version: git-23.062.11911-993b2d5-1
+Depends: libc, luci-base, tc, kmod-sched-core, kmod-ifb
+Section: luci
+Architecture: all
+Installed-Size: 2377
+Filename: luci-app-eqos_git-23.062.11911-993b2d5-1_all.ipk
+Size: 3224
+SHA256sum: 4e3eb7c55edf45ecd1c392b280c722860a9577fac2940fcacd9bc5ae521ecfed
+Description:  EQOS - LuCI interface
+
+Package: luci-app-openclash
+Version: 0.45.87-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Section: opt
+Architecture: all
+Installed-Size: 4261807
+Filename: luci-app-openclash_0.45.87-beta_all.ipk
+Size: 4246007
+SHA256sum: d3b31a8032a26b73c0ca1d39efe1545a263e7565deb26b1c7b2181e61886d9dc
+Description:  A LuCI support for clash
+
+Package: luci-app-smartdns
+Version: 1.2022.40-1
+Depends: libc, smartdns, luci-compat
+License: GPL-3.0-or-later
+Section: luci
+Architecture: all
+Installed-Size: 6811
+Filename: luci-app-smartdns_1.2022.40-1_all.ipk
+Size: 7660
+SHA256sum: ea2f734e16e52db3cb627e497e30683357132a61c651c59517b9367a57a49dc9
+Description:  Provides Luci for smartdns
+
+Package: luci-app-ssr-plus
+Version: 186-8
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, curl, xray-core, chinadns-ng, hysteria, ipt2socks, kcptun-client, naiveproxy, redsocks2, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, simple-obfs, v2ray-plugin, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, trojan
+Section: luci
+Architecture: all
+Installed-Size: 272227
+Filename: luci-app-ssr-plus_186-8_all.ipk
+Size: 272397
+SHA256sum: 22d577e5b6aba1afdb579705b31f06f4b9e03eb5681d9785c4937b5b4bc2146a
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-store
+Version: 0.1.12-10
+Depends: libc, curl, opkg, luci-base, tar, coreutils, coreutils-stat, libuci-lua, mount-utils, luci-lib-taskd
+Section: luci
+Architecture: all
+Installed-Size: 92980
+Filename: luci-app-store_0.1.12-10_all.ipk
+Size: 93903
+SHA256sum: d120d77980448c98ce9999af9223e44e992fa0b1c8c9fc1e56028bd7811efd23
+Description:  luci-app-store is a ipk store developed by LinkEase team
+
+Package: luci-app-vssr
+Version: 1.25-20220423
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, lua-cjson, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs, xray-core, trojan, ipt2socks, kcptun-client, xray-plugin, shadowsocksr-libev-ssr-server, hysteria
+Section: luci
+Architecture: all
+Installed-Size: 5568660
+Filename: luci-app-vssr_1.25-20220423_all.ipk
+Size: 5293522
+SHA256sum: 4dfa80871bd022b29ac1db715ab6756f7febe306c273d2c5882d42f483e78d23
+Description:  A New SS/SSR/Xray/Trojan LuCI interface
+
+Package: luci-i18n-argonne-config-zh-cn
+Version: 1.2-2
+Depends: libc, luci-app-argonne-config
+Section: luci
+Architecture: all
+Installed-Size: 1602
+Filename: luci-i18n-argonne-config-zh-cn_1.2-2_all.ipk
+Size: 2465
+SHA256sum: a4f35ef8298ed804da8cc36323623d3f77da94393747b26918d70ed1374d17e8
+Description:  Translation for luci-app-argonne-config - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-bypass-zh-cn
+Version: git-23.062.11911-993b2d5-1
+Depends: libc, luci-app-bypass
+Section: luci
+Architecture: all
+Installed-Size: 6479
+Filename: luci-i18n-bypass-zh-cn_git-23.062.11911-993b2d5-1_all.ipk
+Size: 7346
+SHA256sum: a063c13af5df872f391865af1fcf86b18fc8436d30c4af12a0d2fddd712f9fd2
+Description:  Translation for luci-app-bypass - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-eqos-zh-cn
+Version: git-23.062.11911-993b2d5-1
+Depends: libc, luci-app-eqos
+Section: luci
+Architecture: all
+Installed-Size: 571
+Filename: luci-i18n-eqos-zh-cn_git-23.062.11911-993b2d5-1_all.ipk
+Size: 1468
+SHA256sum: 354bac037b7d3d29d75438c529b8ac79da68080e324759e853a28ec231c5a7fe
+Description:  Translation for luci-app-eqos - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-smartdns-zh-cn
+Version: 1.2022.40-1
+Depends: libc, luci-app-smartdns
+License: GPL-3.0-or-later
+Section: luci
+Architecture: all
+Installed-Size: 4436
+Filename: luci-i18n-smartdns-zh-cn_1.2022.40-1_all.ipk
+Size: 5281
+SHA256sum: 2fa5b4db53eaf7571cf1e11803f03768f3816e6620408ff60fab7f2d710bc308
+Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 186-8
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 7245
+Filename: luci-i18n-ssr-plus-zh-cn_186-8_all.ipk
+Size: 8100
+SHA256sum: cb4830d68282465185543ddf8fcb435474c5405e1b655168b06c69f28b22cd82
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-vssr-zh-cn
+Version: 1.25-20220423
+Depends: libc, luci-app-vssr
+Section: luci
+Architecture: all
+Installed-Size: 6135
+Filename: luci-i18n-vssr-zh-cn_1.25-20220423_all.ipk
+Size: 6937
+SHA256sum: a25d0f5652b28ac35022fe5f8bc5ef09e0eb9ba618ed8633c8d805a67827334a
+Description:  Translation for luci-app-vssr - 简体中文 (Simplified Chinese)
+
+Package: luci-lib-taskd
+Version: 1.0.17
+Depends: libc, luci-lib-xterm, taskd
+Section: luci
+Architecture: all
+Installed-Size: 6575
+Filename: luci-lib-taskd_1.0.17_all.ipk
+Size: 7271
+SHA256sum: 9ae95d3b3e26f829015cf12ff553e93cf0f91b3d170f26f4b9d782e955f4d15c
+Description:  Task library
+
+Package: luci-lib-xterm
+Version: 4.18.0
+Depends: libc
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 78533
+Filename: luci-lib-xterm_4.18.0_all.ipk
+Size: 79366
+SHA256sum: c8904c77a170f1515fc636e2478e744066ed9884f6254252424dc5bc7be83f88
+Description:  Xterm.js library
+
+Package: luci-theme-argonne
+Version: 1.7.3-2
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 415479
+Filename: luci-theme-argonne_1.7.3-2_all.ipk
+Size: 416182
+SHA256sum: e9aba7a54dc2407af1bda6c9443eee23ed341d2cff52f18d380f09c159fb36d9
+Description:  Argonne kenzo
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5164
+Filename: microsocks_1.0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5941
+SHA256sum: e8b0fdb1cd940ec6bf3080f4c22a5b8512ea0e9262c9a1815a2bb7688c1eaef5
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: naiveproxy
+Version: 110.0.5481.100-1-1
+Depends: libc, libatomic1
+License: BSD 3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2610939
+Filename: naiveproxy_110.0.5481.100-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2603811
+SHA256sum: 45ddae96e7b80a6393dfed267711c34e4a9d366da853b496aa513c6b6a66e424
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53606
+Filename: redsocks2_0.67-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54430
+SHA256sum: f2c92bb4f0b0a8076fbbd53100f383f6b9afdd9abb076187c920f5ab3214ca79
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: taskd
+Version: 1.0.3-1
+Depends: libc, procd, script-utils, coreutils-stty
+Section: utils
+Architecture: all
+Installed-Size: 1626
+Filename: taskd_1.0.3-1_all.ipk
+Size: 2383
+SHA256sum: 44a78cc90dd8dcec81437369db0fd58fcc5f96fe70411c3d6565597af4014440
+Description:  Simple Task Manager based on procd
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3488
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4191
+SHA256sum: 6720698525724898404ac0a752db86ebe024c4ab7b3a97582ac3e004f5c4b0c3
+Description:  tcping measures the latency of a tcp-connection
+

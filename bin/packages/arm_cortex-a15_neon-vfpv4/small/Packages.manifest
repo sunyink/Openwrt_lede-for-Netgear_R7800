@@ -1,0 +1,250 @@
+Package: chinadns-ng
+Version: 2023.03.22-1
+Depends: libc, ipset
+Source: feeds/small/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: pexcn <i@pexcn.me>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 19320
+Filename: chinadns-ng_2023.03.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 20065
+SHA256sum: c2a5c3502d483086e74f13e52514999d3f8f908376cf6e733ab78757aeb3f73b
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/small/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: ghostmaker
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10766
+Filename: dns2socks_2.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11518
+SHA256sum: bc50ba0b643ca9160e8fae0bdddc711a1c865a3e7c82a5b0cece0dd88df0e5a4
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/small/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 11364
+Filename: dns2tcp_1.1.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12172
+SHA256sum: 9c186f50361c701cf508e65b5404356b481412ee21f88f84e2abdc1649f3c933
+Description:  utility to convert dns query from udp to tcp
+
+Package: hysteria
+Version: 1.3.3-1
+Depends: libc, ca-bundle
+Source: feeds/small/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6404908
+Filename: hysteria_1.3.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6395780
+SHA256sum: 5100b8e1dadabce5c976aa186f966a78ab33f31b0e1dd7e09e49d9817d1b5d5f
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: feeds/small/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1677781560
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 26557
+Filename: ipt2socks_1.1.3-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27288
+SHA256sum: 3c6e60bf0c45f012a7475e68c4c82b71d718389fc8fcc71544596da6fca4b97f
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2254
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3016
+SHA256sum: 8655d25902d4824c8f54614a912f713273362e24d8855d2a0964d8283460cf8a
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 59194
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 59921
+SHA256sum: 2d3f869664395d65dffc192f6ea207cb0c389f2c362f347ef2427f985ddd8a1d
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53837
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54561
+SHA256sum: a644474b331e671131ac36cb3ba2e2cd0f3f851892c3c5355fa2f00b3aa3d868
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 62993
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 63789
+SHA256sum: 7dc83e78f04a7cbab9a8c372beec33f7f24f5cb1ce7c45405a21c0ea7fac1f37
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/small/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 27242
+Filename: simple-obfs_0.0.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 28099
+SHA256sum: 3c17a00ac4348f9f2040a312bdccd0cb63a931dba0ded4eb92972f795f8f3f6a
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/small/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: Trojan-Plus-Group
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 409377
+Filename: trojan-plus_10.0.3-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 409687
+SHA256sum: fff65e59f1b8b1ebff38c8f09bbcd829e091d136e6d043c1393c05597d74fa70
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: feeds/small/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: GreaterFire
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 299167
+Filename: trojan_1.16.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 299571
+SHA256sum: ecb2ee3e20b5631b058ec6675ff028eb92741cdff82a82664779d112cdffae09
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: v2ray-plugin
+Version: 5.4.0-1
+Depends: libc, ca-bundle
+Source: feeds/small/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4864524
+Filename: v2ray-plugin_5.4.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4858398
+SHA256sum: 4a4459e69c2a933639dca33e9030a31694452b478a4c66cbb29c2e8750e2f0d7
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: xray-core
+Version: 1.7.5-1
+Depends: libc, ca-bundle
+Source: feeds/small/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8904707
+Filename: xray-core_1.7.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8891722
+SHA256sum: e0a4f35f533d498fe8b57e525cbb455c33cd4f280d6d31690bbddbccc151f6eb
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-plugin
+Version: 1.7.5-1
+Depends: libc, ca-bundle
+Source: feeds/small/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1677781560
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5850425
+Filename: xray-plugin_1.7.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5841529
+SHA256sum: 899a24694ca70a118c86754fe6424d6a85e2d85ac80b488489eeb8a080a4ac61
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+

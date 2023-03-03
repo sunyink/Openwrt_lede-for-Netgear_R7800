@@ -1,0 +1,33 @@
+Source-Makefile: feeds/kenzo/alist/Makefile
+Build-Depends: golang/host
+
+Package: alist
+Submenu: Web Servers/Proxies
+Version: 3.12.2-1
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: Alist - Main program
+Maintainer: sbwml <admin@cooluc.com>
+Source: alist-3.12.2.tar.gz
+License: GPL-3.0
+Type: ipkg
+Description:   A file list program that supports multiple storage
+https://alist-doc.nn.ci/
+sbwml <admin@cooluc.com>
+@@
+Config:
+config ALIST_COMPRESS_UPX
+	bool "Compress executable files with UPX"
+	default n
+
+config ALIST_COMPRESS_GOPROXY
+	bool "Compiling with GOPROXY proxy"
+	default n
+@@
+
+

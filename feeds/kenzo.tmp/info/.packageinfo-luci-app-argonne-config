@@ -1,0 +1,79 @@
+Source-Makefile: feeds/kenzo/luci-app-argonne-config/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-argonne-config
+Submenu: 3. Applications
+Version: 1.2-2
+Depends: +libc +luci-compat +luci-theme-argonne
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI page for Argonne Config
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Source: 
+Type: ipkg
+Description: LuCI page for Argonne Config
+jerrykuku <jerrykuku@qq.com>
+@@
+
+Package: luci-i18n-argonne-config-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 1.2-2
+Depends: +libc luci-app-argonne-config
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-argonne-config - zh_Hans translation
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-argonne-config - 
+jerrykuku <jerrykuku@qq.com>
+@@
+
+Package: luci-i18n-argonne-config-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 1.2-2
+Depends: +libc luci-app-argonne-config
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-argonne-config - zh-cn translation
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-argonne-config - 简体中文 (Simplified Chinese)
+jerrykuku <jerrykuku@qq.com>
+@@
+
+Package: luci-i18n-argonne-config-es
+Default: LUCI_LANG_es||(ALL&&m)
+Version: 1.2-2
+Depends: +libc luci-app-argonne-config
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-argonne-config - es translation
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-argonne-config - Español (Spanish)
+jerrykuku <jerrykuku@qq.com>
+@@
+
+

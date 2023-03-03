@@ -1,0 +1,60 @@
+Source-Makefile: feeds/kenzo/luci-app-lucky/luci-app-lucky/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-lucky
+Submenu: 3. Applications
+Version: 1.0.4-5
+Depends: +libc +lucky
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI Support for Dynamic lucky Client
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI Support for Dynamic lucky Client
+
+@@
+
+Package: luci-i18n-lucky-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 1.0.4-5
+Depends: +libc luci-app-lucky
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-lucky - zh_Hans translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-lucky - 
+
+@@
+
+Package: luci-i18n-lucky-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 1.0.4-5
+Depends: +libc luci-app-lucky
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-lucky - zh-cn translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-lucky - 简体中文 (Simplified Chinese)
+
+@@
+
+

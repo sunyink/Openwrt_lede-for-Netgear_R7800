@@ -1,0 +1,60 @@
+Source-Makefile: feeds/kenzo/luci-app-eqos/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-eqos
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +luci-base +tc +kmod-sched-core +kmod-ifb
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: EQOS - LuCI interface
+Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com> GaryPang <https://github.com/garypang13/luci-app-eqos>
+Source: 
+Type: ipkg
+Description: EQOS - LuCI interface
+Jianhui Zhao <jianhuizhao329@gmail.com> GaryPang <https://github.com/garypang13/luci-app-eqos>
+@@
+
+Package: luci-i18n-eqos-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-eqos
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-eqos - zh_Hans translation
+Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com> GaryPang <https://github.com/garypang13/luci-app-eqos>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-eqos - 
+Jianhui Zhao <jianhuizhao329@gmail.com> GaryPang <https://github.com/garypang13/luci-app-eqos>
+@@
+
+Package: luci-i18n-eqos-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc luci-app-eqos
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-eqos - zh-cn translation
+Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com> GaryPang <https://github.com/garypang13/luci-app-eqos>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-eqos - 简体中文 (Simplified Chinese)
+Jianhui Zhao <jianhuizhao329@gmail.com> GaryPang <https://github.com/garypang13/luci-app-eqos>
+@@
+
+

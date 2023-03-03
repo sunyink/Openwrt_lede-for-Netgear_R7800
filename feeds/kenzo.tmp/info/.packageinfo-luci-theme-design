@@ -1,0 +1,22 @@
+Source-Makefile: feeds/kenzo/luci-theme-design/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-theme-design
+Submenu: 4. Themes
+Version: 5.3.3-20230303
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Design Theme
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Design Theme
+
+@@
+
+

@@ -1,0 +1,43 @@
+Source-Makefile: feeds/luci/applications/luci-app-omcproxy/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-omcproxy
+Submenu: 3. Applications
+Version: 0.1.0-1
+Depends: +libc +omcproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for omcproxy
+Maintainer: Shun Li <riverscn@gmail.com>
+Source: 
+License: Apache-2.0
+Type: ipkg
+Description: LuCI support for omcproxy
+Shun Li <riverscn@gmail.com>
+@@
+
+Package: luci-i18n-omcproxy-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 0.1.0-1
+Depends: +libc luci-app-omcproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-omcproxy - zh-cn translation
+Maintainer: Shun Li <riverscn@gmail.com>
+Source: 
+License: Apache-2.0
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-omcproxy - 简体中文 (Simplified Chinese)
+Shun Li <riverscn@gmail.com>
+@@
+
+

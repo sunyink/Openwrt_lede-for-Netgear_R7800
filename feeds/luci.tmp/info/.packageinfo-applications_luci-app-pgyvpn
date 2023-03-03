@@ -1,0 +1,22 @@
+Source-Makefile: feeds/luci/applications/luci-app-pgyvpn/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-pgyvpn
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +lua-md5 +pgyvpn
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI Support for the PuGongYing VPN
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI Support for the PuGongYing VPN
+
+@@
+
+

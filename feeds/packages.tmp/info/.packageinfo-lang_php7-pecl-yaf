@@ -1,0 +1,25 @@
+Source-Makefile: feeds/packages/lang/php7-pecl-yaf/Makefile
+Build-Depends: php7
+
+Package: php7-pecl-yaf
+Submenu: PHP7
+Version: 3.3.5-1
+Depends: +libc php7 +libstdcpp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: lang
+Category: Languages
+Repository: base
+Title: Yaf is a PHP framework similar to zend framework
+Maintainer: Lean
+Source: yaf-3.3.5.tgz
+License: Apache2.0
+LicenseFiles: LICENSE
+Type: ipkg
+Description: Yaf is a PHP framework similar to zend framework
+http://pecl.php.net/
+Lean
+@@
+
+

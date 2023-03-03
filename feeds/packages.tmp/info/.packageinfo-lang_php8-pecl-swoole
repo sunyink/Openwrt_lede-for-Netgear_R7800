@@ -1,0 +1,25 @@
+Source-Makefile: feeds/packages/lang/php8-pecl-swoole/Makefile
+Build-Depends: php8
+
+Package: php8-pecl-swoole
+Submenu: PHP8
+Version: 4.8.12-1
+Depends: +libc php8 +libstdcpp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: lang
+Category: Languages
+Repository: base
+Title: Bindings for the libswoole library
+Maintainer: Lean
+Source: swoole-4.8.12.tgz
+License: Apache2.0
+LicenseFiles: LICENSE
+Type: ipkg
+Description: Bindings for the libswoole library
+http://pecl.php.net/
+Lean
+@@
+
+

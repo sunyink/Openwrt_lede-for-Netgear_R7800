@@ -1,0 +1,23 @@
+Source-Makefile: feeds/kenzo/luci-app-lucky/lucky/Makefile
+
+Package: lucky
+Version: 1.7.21-1
+Depends: +libc @(i386||x86_64||arm||aarch64||mipsel||mips)
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: Lucky dynamic domain name ddns-go service, socat,frp 
+Maintainer: GDY666 <gdy666@foxmail.com>
+Source: 
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Type: ipkg
+Description:   Main functions of Lucky: dynamic domain name ddns-go service, socat,reverse proxy ,wake on lan
+https://github.com/gdy666/lucky
+GDY666 <gdy666@foxmail.com>
+@@
+
+

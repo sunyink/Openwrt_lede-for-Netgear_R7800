@@ -1,0 +1,22 @@
+Source-Makefile: feeds/luci/protocols/luci-proto-3x/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-proto-3x
+Submenu: 5. Protocols
+Version: x-1
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Support for 3x
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Support for 3x
+
+@@
+
+

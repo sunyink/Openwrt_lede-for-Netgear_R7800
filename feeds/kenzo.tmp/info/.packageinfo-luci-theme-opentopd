@@ -1,0 +1,22 @@
+Source-Makefile: feeds/kenzo/luci-theme-opentopd/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-theme-opentopd
+Submenu: 4. Themes
+Version: 1.6.0-20230207
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI luci-theme-opentopd theme
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI luci-theme-opentopd theme
+
+@@
+
+

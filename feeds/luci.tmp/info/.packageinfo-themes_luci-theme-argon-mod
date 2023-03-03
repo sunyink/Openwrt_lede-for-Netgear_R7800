@@ -1,0 +1,22 @@
+Source-Makefile: feeds/luci/themes/luci-theme-argon-mod/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-theme-argon-mod
+Submenu: 4. Themes
+Version: 1.7.3-20220421
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Argon Mod Theme
+Maintainer: 
+Source: 
+Type: ipkg
+Description: Argon Mod Theme
+
+@@
+
+

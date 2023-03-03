@@ -1,0 +1,79 @@
+Source-Makefile: feeds/kenzo/luci-app-argon-config/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-argon-config
+Submenu: 3. Applications
+Version: 0.9-20220424
+Depends: +libc +luci-compat +luci-theme-argon
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI page for Argon Config
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Source: 
+Type: ipkg
+Description: LuCI page for Argon Config
+jerrykuku <jerrykuku@qq.com>
+@@
+
+Package: luci-i18n-argon-config-zh_Hans
+Default: LUCI_LANG_zh_Hans||(ALL&&m)
+Version: 0.9-20220424
+Depends: +libc luci-app-argon-config
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-argon-config - zh_Hans translation
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-argon-config - 
+jerrykuku <jerrykuku@qq.com>
+@@
+
+Package: luci-i18n-argon-config-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: 0.9-20220424
+Depends: +libc luci-app-argon-config
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-argon-config - zh-cn translation
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-argon-config - 简体中文 (Simplified Chinese)
+jerrykuku <jerrykuku@qq.com>
+@@
+
+Package: luci-i18n-argon-config-es
+Default: LUCI_LANG_es||(ALL&&m)
+Version: 0.9-20220424
+Depends: +libc luci-app-argon-config
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-argon-config - es translation
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-argon-config - Español (Spanish)
+jerrykuku <jerrykuku@qq.com>
+@@
+
+

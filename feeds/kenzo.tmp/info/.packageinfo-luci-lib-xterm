@@ -1,0 +1,23 @@
+Source-Makefile: feeds/kenzo/luci-lib-xterm/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-lib-xterm
+Submenu: 6. Libraries
+Version: 4.18.0
+Depends: +libc 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: Xterm.js library
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Source: 
+License: MIT
+Type: ipkg
+Description: Xterm.js library
+jjm2473 <jjm2473@gmail.com>
+@@
+
+

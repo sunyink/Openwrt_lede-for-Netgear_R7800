@@ -1,0 +1,21 @@
+Source-Makefile: feeds/packages/net/uugamebooster/Makefile
+
+Package: uugamebooster
+Version: v3.6.2-1
+Depends: +libc @(aarch64||arm||mipsel||x86_64) +kmod-tun
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: NetEase UU Game Booster
+Maintainer: 
+Source: uugamebooster--v3.6.2.tar.gz
+Type: ipkg
+Description:   NetEase's UU Game Booster Accelerates Triple-A Gameplay and Market
+https://uu.163.com
+
+@@
+
+

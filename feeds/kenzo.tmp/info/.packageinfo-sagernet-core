@@ -1,0 +1,73 @@
+Source-Makefile: feeds/kenzo/sagernet-core/Makefile
+Build-Depends: golang/host
+
+Package: sagernet-core
+Version: 5.0.17-2022-07-30-26e36b1cb46f387cacd65c1a5900be592913f842-0
+Depends: +libc @(aarch64||arm||i386||i686||mips||mips64||mips64el||mipsel||powerpc64||x86_64) +ca-bundle
+Conflicts: v2ray-core xray-core
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: An enhanced v2ray edition for SagerNet
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Source: sagernet-core-5.0.17-2022-07-30-26e36b1cb46f387cacd65c1a5900be592913f842.tar.xz
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Type: ipkg
+Description:     Project V is a set of network tools that help you to build your own computer network.
+  It secures your network connections and thus protects your privacy.
+
+  This is a v2ray-core fork for SagerNet.
+https://sagernet.org
+Tianling Shen <cnsztl@immortalwrt.org>
+@@
+
+Package: sagernet-example
+Version: 5.0.17-2022-07-30-26e36b1cb46f387cacd65c1a5900be592913f842-0
+Depends: +libc sagernet-core
+Conflicts: v2ray-example
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: An enhanced v2ray edition for SagerNet (example configs)
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Source: sagernet-core-5.0.17-2022-07-30-26e36b1cb46f387cacd65c1a5900be592913f842.tar.xz
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Type: ipkg
+Description:     Project V is a set of network tools that help you to build your own computer network.
+  It secures your network connections and thus protects your privacy.
+
+  This includes example configuration files for sagernet-core.
+https://sagernet.org
+Tianling Shen <cnsztl@immortalwrt.org>
+@@
+
+Package: sagernet-extra
+Version: 5.0.17-2022-07-30-26e36b1cb46f387cacd65c1a5900be592913f842-0
+Depends: +libc sagernet-core
+Conflicts: v2ray-extra
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: An enhanced v2ray edition for SagerNet (extra resources)
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Source: sagernet-core-5.0.17-2022-07-30-26e36b1cb46f387cacd65c1a5900be592913f842.tar.xz
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Type: ipkg
+Description:     Project V is a set of network tools that help you to build your own computer network.
+  It secures your network connections and thus protects your privacy.
+
+  This includes extra resources for sagernet-core.
+https://sagernet.org
+Tianling Shen <cnsztl@immortalwrt.org>
+@@
+
+

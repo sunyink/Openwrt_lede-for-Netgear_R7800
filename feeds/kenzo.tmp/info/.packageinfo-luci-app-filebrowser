@@ -1,0 +1,23 @@
+Source-Makefile: feeds/kenzo/luci-app-filebrowser/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-filebrowser
+Submenu: 3. Applications
+Version: snapshot-118071b
+Depends: +libc +filebrowser
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI Support for FileBrowser
+Maintainer: 
+Source: 
+License: GPLv3
+Type: ipkg
+Description: LuCI Support for FileBrowser
+
+@@
+
+
