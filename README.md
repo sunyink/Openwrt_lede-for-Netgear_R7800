@@ -1,15 +1,17 @@
-# 欢迎来到 Lean 的 LEDE 源码仓库
+# 欢迎来到 sunyink 的 Netgeat R7800 Openwrt固件编译仓库
 
-如何编译自己需要的 LEDE 固件 [How to build your LEDE firmware](./README_EN.md)
+##注意
+该仓库为个人学习编译用的！备份！性质仓库。使用Lede源并整合kenzo插件库。远程库内容不实时从上游同步更新，仅反映编译环境本地中修改。
+Lede固件源地址：https://github.com/coolsnowwolf/lede
+feed-kenzo：
+https://github.com/kenzok8/openwrt-packages
+https://github.com/kenzok8/small
 
-## 官方讨论群
-如有技术问题需要讨论或者交流，欢迎加入以下群：
-1. QQ 讨论群： Op固件技术研究群 ,号码 891659613 ，加群链接：[点击加入](https://jq.qq.com/?_wv=1027&k=XL8SK5aC "Op固件技术研究群")
-2. TG 讨论群： OP 编译官方大群 ，加群链接：[点击加入](https://t.me/JhKgAA6Hx1 "OP 编译官方大群")
-3. Rockchip RK3568 预编译固件发布 Release 下载更新地址 (包括 H68K )：<https://github.com/coolsnowwolf/lede/releases/tag/20220716>
+##固件说明
+本库固件目标为使R7800固件实现以下功能（优先级依次排序）：smartdns抗DNS污染、分流科学上网、Nat1实现、反广告。
 
-<a href ="https://item.taobao.com/item.htm?spm=a230r.1.14.11.4bb55247rdHEAP&id=702787603594&ns=1&abbucket=17#detail
-"><img src="https://github.com/coolsnowwolf/lede/blob/master/doc/h68k.jpg?raw=true" width=600  /></a>
+
+#原说明文段保留部分
 
 ## 注意
 
