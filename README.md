@@ -1,4 +1,4 @@
-# 欢迎来到 sunyink 的 Netgeat R7800 Openwrt固件编译仓库
+# 欢迎来到 sunyink 的 Netgear R7800 Openwrt固件编译仓库
 
 ##注意
 该仓库为个人学习编译用的！备份！性质仓库。使用Lede源并整合kenzo插件库。远程库内容不实时从上游同步更新，仅反映编译环境本地中修改。
