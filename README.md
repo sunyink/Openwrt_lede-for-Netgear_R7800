@@ -1,5 +1,8 @@
 # 欢迎来到 sunyink 的 Netgear R7800 Openwrt固件编译仓库
 
+## 固件说明
+本库固件目标为使R7800固件实现以下功能（优先级依次排序）：smartdns抗DNS污染、分流科学上网、Nat1实现、反广告。
+
 ## 注意
 该仓库为个人学习编译用的！备份！性质仓库。使用Lede源并整合kenzo插件库。远程库内容不实时从上游同步更新，仅反映编译环境本地中修改。
 
@@ -10,11 +13,6 @@ feed-kenzo：
 https://github.com/kenzok8/openwrt-packages
 
 https://github.com/kenzok8/small
-
-## 固件说明
-本库固件目标为使R7800固件实现以下功能（优先级依次排序）：smartdns抗DNS污染、分流科学上网、Nat1实现、反广告。
-
-
 
 
 # 原说明文段保留部分
